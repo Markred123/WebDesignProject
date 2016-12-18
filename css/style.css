@@ -1,0 +1,49 @@
+.jumbotron{
+	background-image:url('../picture.png');
+	min-height:40px;
+	
+}
+.jumbotronirish{
+	background-image:url('../picture.png');
+	min-height:50px;}
+img{
+	height:250px;
+	width:300px;
+}
+#personaldescription{
+ font-weight:bold;}
+ #mark{
+	
+	 height:500px;
+	 
+ }
+ p{font-weight:bold}
+ h3.marksss{
+	 color:aqua;
+	 text-decoration:underline;
+	
+ }
+ 
+.ds{
+	 font-weight:normal;
+ }
+ .markz{
+	 height:500px;
+ }
+ .alt2{
+	 background:#333;
+	 min-height:150px;
+	 color:#fff;
+	 text-align:center;
+	 
+ }
+ a.header{
+	 font-size:150%;
+ }
+ 
+p.markss{text-size:200%;
+font-style:italic;}
+
+li.smooth{
+	color:blue;
+}

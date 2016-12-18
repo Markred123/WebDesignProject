@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Gaming News
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="../css/style.css" />
+		
+	</head>
+	<body>
+	
+	<div class="navbar-static-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-brand">
+			 <a href="#"> News</a>
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>
+			
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="header" href="../index.html">World News</a></li>
+					<li><a class="header" href="irishnews.html">Irish News</a></li>
+					<li><a class="header" href="gaming.html">Gaming News</a></li>
+					<li><a class="header" href="science.html">Science</a></li>
+					
+					<li><a href="#experience">World of Warcraft</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+	
+	
+			<div class="jumbotron">
+				<div class="container">
+				<h1> Fast Action</h1>
+				<h2> Gaming News</h2>
+				</div>
+			</div>
+			<div class="container " id="about">
+				<div class="col-md-6">
+					<img src="../pictures/gaming.jpg"  class="img-circle img-responsive text-center"/>
+				</div>
+				<div class="col-md-6 text-center " id="personaldescription">
+				
+				</div>
+				
+			</div>
+			
+			<div class ="container"id="education">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="text-center, marksss">Breaking News</h3>
+						<p class="text-center, markss">CD Projekt RED Gets $7 Million from Polish Government To Research Seamless Multiplayer, City Creation </p>
+						<p>
+						 Read more	<a href="http://wccftech.com/cd-projekt-red-gets-7-million-government/"> here </a>
+						</p>
+					
+					</div>
+					<div class="col-md-6">
+						<h3 class="text-center, marksss">Breaking News</h3>
+						<p class="text-center, markss">Former Konami President is now President at Kojima Productions. Read more <a href="http://www.spieltimes.com/news/kojima-productions-president/">here! </a> </p>
+						
+					</div>
+					
+
+				</div>
+			
+		</div>
+		
+		<div class="jumbotron" >
+		</div>
+		
+		
+		<div class="container markz" id="experience">
+			<h3 class="marksss">World of Warcraft News<h3>
+			<div class="col-md-6">
+			<h4>Blizzard introduces new charity pet at this year's Blizzcon, Players can now pay 10 euro to get new cosmetic ingame pet. All procedes go to the make a wish foundation</h4>
+			<p class="ds"> Read more <a href="https://worldofwarcraft.com/en-us/news/20381198/adopt-mischief-today-and-support-make-a-wish">here </a> </p>
+			
+			
+			</div>
+			
+			<div class="col-md-6">
+			</div>
+		</div>
+		<div class="jumbotron">
+		</div>
+
+	
+		<div class="alt2">
+			<div class="container">
+				<footer>&copy; Mark Redmond</br> <a href="#"> Back To Top </a></footer>
+			</div>
+	
+	
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+		$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+		</script>
+	</body>
+</html>
